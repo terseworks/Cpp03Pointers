@@ -27,8 +27,9 @@ class Item
 /*
 Item constructor.
 */
-Item::Item() : Item(0)
+Item::Item() : id(0)
 {
+	std::cout << "Constructing item " << id << "." << std::endl;
 }
 
 /*
